@@ -1,0 +1,22 @@
+import Header from "./components/Header";
+import Home from "./components/Home";
+import About from "./components/About";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+const App = () => {
+  return (
+    <div className="bg-[#090a0f] text-zinc-100 min-h-screen selection:bg-white selection:text-zinc-950 font-inter">
+      <Header />
+      <Home />
+      <About />
+      <Project />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
+
