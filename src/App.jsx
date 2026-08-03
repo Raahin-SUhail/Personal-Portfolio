@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
+import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -12,6 +13,7 @@ const App = () => {
       <Home />
       <About />
       <Project />
+      <Certifications />
       <Contact />
       <Footer />
     </div>
