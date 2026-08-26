@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "personal-portfolio-beta-nine-57.vercel.app"
+        }
+      ],
+      "destination": "https://raahinsuhail.dev/$1",
+      "permanent": true
+    }
+  ]
+}
