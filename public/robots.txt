@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://personal-portfolio-beta-nine-57.vercel.app/sitemap.xml
+Sitemap: https://raahinsuhail.dev/sitemap.xml
