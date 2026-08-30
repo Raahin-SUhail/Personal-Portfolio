@@ -4,39 +4,30 @@ import { motion } from "framer-motion";
 const Project = () => {
   const projects = [
     {
-      title: "FixItAll",
-      subtitle: "Full-Stack Service Booking Platform",
+      title: "THE YIELDER",
+      subtitle: "Multi-Role Agricultural Commerce & Logistics Platform",
       description:
-        "Architected a full-stack service booking and tracking platform with secure user authentication and provider workflows. Engineered 6+ RESTful APIs for real-time order tracking and optimized SQL database queries to minimize latency.",
-      techStack: ["Python", "Flask", "SQL", "REST APIs", "Authentication"],
-      github: "https://github.com/Raahin-SUhail/FixitALL_proj",
+        "Built a role-based agricultural platform connecting farmers, buyers, wholesalers, service providers, and transporters through produce trading, farm services, equipment rental, auctions, recommendations, and freight logistics using a FastAPI gateway and Django microservices.",
+      techStack: ["Python", "Django", "FastAPI", "React", "Vite", "JWT"],
+      github: "https://github.com/Raahin-SUhail/the-yielder",
       demo: null,
     },
     {
-      title: "Forge Scheme",
-      subtitle: "Government & Private Scheme Recommendation Engine",
+      title: "SchemeForge",
+      subtitle: "AI-Powered Government Scheme Discovery Platform",
       description:
-        "Built an intelligent recommendation engine matching users with relevant government and private schemes using tailored filtering algorithms. Designed a scalable Django backend following modular software architecture best practices.",
-      techStack: ["Python", "Django", "MySQL", "REST APIs", "Algorithms"],
-      github: "https://github.com/Raahin-SUhail/Scheme_Forge_Backend",
+        "Developed an AI-powered platform that helps Indian citizens discover relevant government welfare schemes using natural-language search, Google Gemini, grounded scheme data, and a deterministic eligibility engine for reliable matching.",
+      techStack: ["React", "Vite", "Flask", "SQLite", "Gemini AI", "RAG"],
+      github: "https://github.com/Raahin-SUhail/Scheme-Forge",
       demo: null,
     },
     {
       title: "EduClip AI",
-      subtitle: "AI-Powered Educational Video Assistant",
+      subtitle: "AI-Powered Educational Video Processing Platform",
       description:
-        "Developed an AI-powered educational assistant leveraging Large Language Model (LLM) APIs for automated video summarization and interactive Q&A. Implemented asynchronous FastAPI endpoints for high-throughput processing.",
-      techStack: ["Python", "FastAPI", "GenAI", "LLM APIs", "AsyncIO"],
-      github: "https://github.com/Raahin-SUhail/Educlip-AI-",
-      demo: null,
-    },
-    {
-      title: "n8n AI & Automation",
-      subtitle: "Enterprise Workflow & Microservice Pipelines",
-      description:
-        "Designed enterprise workflow automation systems connecting backend microservices with n8n and Generative AI. Automated complex multi-step data pipelines to significantly reduce operational overhead.",
-      techStack: ["n8n", "Python", "SQL", "REST APIs", "GenAI Workflows"],
-      github: "https://github.com/Raahin-SUhail",
+        "Developed an AI-powered learning platform that transforms YouTube videos into concise educational materials through transcript extraction, Google Gemini summarization, and automated explainer video generation with FastAPI and MoviePy.",
+      techStack: ["Python", "FastAPI", "Gemini AI", "MoviePy", "yt-dlp", "JWT"],
+      github: "https://github.com/Raahin-SUhail/edu_clip-",
       demo: null,
     },
   ];
@@ -62,7 +53,6 @@ const Project = () => {
       <div className="absolute top-1/3 right-10 w-[500px] h-[500px] bg-white/[0.015] rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl w-full mx-auto relative z-10 font-inter">
-        
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}
@@ -82,7 +72,7 @@ const Project = () => {
           <div className="w-20 h-1 bg-gradient-to-r from-zinc-600 via-white to-zinc-600 rounded-full mx-auto mt-4 shadow-[0_0_12px_rgba(255,255,255,0.4)]"></div>
 
           <p className="text-zinc-400 mt-6 max-w-2xl mx-auto leading-relaxed text-base">
-            A selection of production-ready backend architectures, AI automation systems, and full-stack applications engineered for performance and scalability.
+            A selection of production-ready backend architectures, AI systems, and full-stack applications engineered for performance and scalability.
           </p>
         </motion.div>
 
@@ -160,11 +150,9 @@ const Project = () => {
             </motion.div>
           ))}
         </motion.div>
-
       </div>
     </section>
   );
 };
 
 export default Project;
-
